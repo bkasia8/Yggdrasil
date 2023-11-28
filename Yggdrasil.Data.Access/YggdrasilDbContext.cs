@@ -15,6 +15,7 @@ namespace Yggdrasil.Data.Access
             modelBuilder.ApplyConfiguration(new ActorConfiguration());
             modelBuilder.ApplyConfiguration(new DirectoryConfiguration());
         }
-        public YggdrasilDbContext(DbContextOptions<YggdrasilDbContext> options):base(options) { }
+        public YggdrasilDbContext(DbContextOptions<YggdrasilDbContext> options):base(options) { 
+        }
     }
 }
